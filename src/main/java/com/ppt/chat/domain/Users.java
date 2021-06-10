@@ -24,6 +24,12 @@ public class Users {
 		this.email = email;
 		this.password = password;
 	}
+
+	@Override
+	public String toString() {
+		return "Users [firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + ", password="
+				+ password + "]";
+	}
 	
 	
 }
